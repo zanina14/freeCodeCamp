@@ -23,6 +23,7 @@ The for loop is commonly used when the number of iterations is known.
 
 ## Example
 ```c
+1/
 #include <stdio.h>
 
 int main () {
@@ -33,13 +34,27 @@ int main () {
     	printf("Item on index %d is %d\n", i, array[i]);
     }
 }
-```
-
+2/
+#include <stdio.h>
+int main()
+{
+   int i;
+   for (i=1; i<=3; i++)
+   {
+       printf("%d\n", i);
+   }
+   return 0;
+}
 ## Output:
+1/
 ```shell
 > Item on index 0 is 1
 > Item on index 1 is 2
 > Item on index 2 is 3
 > Item on index 3 is 4
 ```
+2/
+1
+2
+3
 
